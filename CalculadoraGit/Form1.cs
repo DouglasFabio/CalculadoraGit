@@ -23,7 +23,6 @@ namespace CalculadoraGit
             float N2 = float.Parse(txtN2.Text);
             float R = 0;
 
-
             switch (comboBoxOperador.Text)
             {
                 case "Adição":
