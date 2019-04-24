@@ -77,6 +77,7 @@
             this.btnCalcular.TabIndex = 4;
             this.btnCalcular.Text = "Calcular";
             this.btnCalcular.UseVisualStyleBackColor = true;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click);
             // 
             // labelOperador
             // 
@@ -128,7 +129,7 @@
         private System.Windows.Forms.TextBox txtN2;
         private System.Windows.Forms.Button btnCalcular;
         private System.Windows.Forms.Label labelOperador;
-        private System.Windows.Forms.ComboBox comboBoxOperador;
+        public System.Windows.Forms.ComboBox comboBoxOperador;
     }
 }
 
